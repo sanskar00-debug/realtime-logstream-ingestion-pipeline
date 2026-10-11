@@ -33,8 +33,6 @@ The system dynamically separates everyday corporate access profiles from high-ri
 
 ---
 
-## 📌 Project Overview
-
 ## 🚀 Deployment Instructions
 
 ### 1. Boot up the Infrastructure
