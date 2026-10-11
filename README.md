@@ -1,8 +1,18 @@
 # Real-Time Threat Ingestion & SIEM Log Streaming Pipeline 🔒
 
-![Python](https://shields.io) ![Apache Kafka](https://shields.io) ![MongoDB](https://shields.io) ![Docker](https://shields.io)
-![SIEM Telemetry](https://shields.io) ![SOC Operations](https://shields.io) ![Pipeline Security](https://shields.io) ![Build Status](https://shields.io)
+<p align="left">
+  <img src="https://shields.io" alt="Python"/>
+  <img src="https://shields.io" alt="Apache Kafka"/>
+  <img src="https://shields.io" alt="MongoDB"/>
+  <img src="https://shields.io" alt="Docker"/>
+</p>
 
+<p align="left">
+  <img src="https://shields.io" alt="SIEM Telemetry"/>
+  <img src="https://shields.io" alt="SOC Operations"/>
+  <img src="https://shields.io" alt="Data Integrity"/>
+  <img src="https://shields.io" alt="Build Status"/>
+</p>
 
 ## 📌 Project Overview
 This repository contains a production-ready, event-driven data engineering pipeline designed to ingest, sanitize, and validate live network telemetry logs in real time. Leveraging **Apache Kafka** deployed via **Docker** containers, the pipeline automates the tracking of infrastructure access logs, applies automated Security Operations Center (SOC) alert triage rules, and commits the structured security records directly into a **MongoDB document database cluster**.
