@@ -1,19 +1,5 @@
 # Real-Time Threat Ingestion & SIEM Log Streaming Pipeline 🔒
 
-<p align="left">
-  <img src="https://shields.io" alt="Python"/>
-  <img src="https://shields.io" alt="Apache Kafka"/>
-  <img src="https://shields.io" alt="MongoDB"/>
-  <img src="https://shields.io" alt="Docker"/>
-</p>
-
-<p align="left">
-  <img src="https://shields.io" alt="SIEM Telemetry"/>
-  <img src="https://shields.io" alt="SOC Operations"/>
-  <img src="https://shields.io" alt="Data Integrity"/>
-  <img src="https://shields.io" alt="Build Status"/>
-</p>
-
 ## 📌 Project Overview
 This repository contains a production-ready, event-driven data engineering pipeline designed to ingest, sanitize, and validate live network telemetry logs in real time. Leveraging **Apache Kafka** deployed via **Docker** containers, the pipeline automates the tracking of infrastructure access logs, applies automated Security Operations Center (SOC) alert triage rules, and commits the structured security records directly into a **MongoDB document database cluster**.
 
@@ -33,6 +19,21 @@ The system dynamically separates everyday corporate access profiles from high-ri
 ## 🚨 Automated Detection Profiles
 - **Brute-Force Vector Flag:** Triggered instantly if an endpoint records ≥ 5 sequential failed validation loops.
 - **Data Exfiltration Vector Flag:** Triggered instantly if a telemetry stream session exceeds a payload transfer velocity of `400.0 MB`.
+
+---
+
+## **📊 Automated Data Engineering Engine for Proactive Cyber Defense**
+
+| Core Technologies | Specialized Domain Skills | Pipeline Status |
+| :--- | :--- | :--- |
+| 🐍 **Python 3.x** (Automation Core) | 🛡️ **SIEM Telemetry Ingestion** | 🟩 **Build:** Passing |
+| 🚀 **Apache Kafka** (Event Streaming) | 🚨 **SOC Incident Triage Rules** | 🔒 **Data Security:** Verified |
+| 🍃 **MongoDB** (NoSQL Warehouse) | 🧹 **Data Sanitization & Validation** | ⚡ **Throughput:** Real-Time |
+| 🐳 **Docker Ecosystem** (Orchestration) | 📂 **3NF Transaction Logging** | 🛠️ **Environment:** Active |
+
+---
+
+## 📌 Project Overview
 
 ## 🚀 Deployment Instructions
 
