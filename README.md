@@ -1,7 +1,6 @@
 # Real-Time Threat Ingestion & SIEM Log Streaming Pipeline 🔒
 
 ![Python](https://shields.io) ![Apache Kafka](https://shields.io) ![MongoDB](https://shields.io) ![Docker](https://shields.io)
-
 ![SIEM Telemetry](https://shields.io) ![SOC Operations](https://shields.io) ![Pipeline Security](https://shields.io) ![Build Status](https://shields.io)
 
 
